@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    tools:ignore="MissingDefaultResource"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.controlpark_app.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_rolFragment"
+            app:destination="@id/rolFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rolFragment"
+        android:name="com.example.controlpark_app.RolFragment"
+        android:label="fragment_rol"
+        tools:layout="@layout/fragment_rol" >
+        <action
+            android:id="@+id/action_rolFragment_to_menuLocalFragment"
+            app:destination="@id/menuLocalFragment" />
+        <action
+            android:id="@+id/action_rolFragment_to_menuChoferFragment"
+            app:destination="@id/menuChoferFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuChoferFragment"
+        android:name="com.example.controlpark_app.MenuChoferFragment"
+        android:label="fragment_menu_chofer"
+        tools:layout="@layout/fragment_menu_chofer" />
+    <fragment
+        android:id="@+id/menuLocalFragment"
+        android:name="com.example.controlpark_app.MenuLocalFragment"
+        android:label="fragment_menu_local"
+        tools:layout="@layout/fragment_menu_local" />
+</navigation>
