@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".view.activities.ParckingActivity"
+            android:name=".view.activities.ParkingActivity"
             android:label="@string/title_activity_parcking" >
         </activity>
         <activity android:name=".view.activities.DriverActivity" >

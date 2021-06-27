@@ -12,21 +12,22 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.controlpark_app.databinding.FragmentHomeBinding;
+
+import com.example.controlpark_app.databinding.FragmentDriverDetailBinding;
 import com.example.controlpark_app.viewmodel.DetailViewModel;
 
 
 public class DetailFragment extends Fragment {
 
     private DetailViewModel homeViewModel;
-    private FragmentHomeBinding binding;
+    private FragmentDriverDetailBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         homeViewModel =
                 new ViewModelProvider(this).get(DetailViewModel.class);
 
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        binding = FragmentDriverDetailBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textHome;

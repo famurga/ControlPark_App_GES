@@ -10,20 +10,20 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
-import com.example.controlpark_app.view.activities.R;
-import com.example.controlpark_app.view.activities.databinding.FragmentHomeBinding;
+
+import com.example.controlpark_app.databinding.FragmentParkingHomeBinding;
 
 public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
-private FragmentHomeBinding binding;
+private FragmentParkingHomeBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
             ViewGroup container, Bundle savedInstanceState) {
         homeViewModel =
                 new ViewModelProvider(this).get(HomeViewModel.class);
 
-    binding = FragmentHomeBinding.inflate(inflater, container, false);
+    binding = FragmentParkingHomeBinding.inflate(inflater, container, false);
     View root = binding.getRoot();
 
         final TextView textView = binding.textHome;
