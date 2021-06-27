@@ -1,4 +1,4 @@
-package com.example.controlpark_app;
+package com.example.controlpark_app.view.fragments;
 
 import android.os.Bundle;
 
@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.example.controlpark_app.R;
 
 
 public class RolFragment extends Fragment {

@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.controlpark_app.LoginFragment"
+        android:name="com.example.controlpark_app.view.activities.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/rolFragment"
-        android:name="com.example.controlpark_app.RolFragment"
+        android:name="com.example.controlpark_app.view.fragments.RolFragment"
         android:label="fragment_rol"
         tools:layout="@layout/fragment_rol" >
         <action
@@ -29,12 +29,12 @@
     </fragment>
     <fragment
         android:id="@+id/menuChoferFragment"
-        android:name="com.example.controlpark_app.MenuChoferFragment"
+        android:name="com.example.controlpark_app.view.fragments.MenuChoferFragment"
         android:label="fragment_menu_chofer"
         tools:layout="@layout/fragment_menu_chofer" />
     <fragment
         android:id="@+id/menuLocalFragment"
-        android:name="com.example.controlpark_app.MenuLocalFragment"
+        android:name="com.example.controlpark_app.view.fragments.MenuLocalFragment"
         android:label="fragment_menu_local"
         tools:layout="@layout/fragment_menu_local" />
 </navigation>

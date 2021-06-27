@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
 
-    tools:context=".RolFragment">
+    tools:context=".view.fragments.RolFragment">
 
     <TextView
         android:id="@+id/rolChofer"

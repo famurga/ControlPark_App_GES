@@ -1,9 +1,11 @@
-package com.example.controlpark_app;
+package com.example.controlpark_app.view.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
+
+import com.example.controlpark_app.R;
 
 public class MainActivity extends AppCompatActivity {
 
