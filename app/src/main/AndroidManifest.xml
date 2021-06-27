@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".view.activities.ParkingActivity"
+            android:name=".view.activities.DriverActivity"
             android:label="@string/title_activity_parcking" >
         </activity>
-        <activity android:name=".view.activities.DriverActivity" >
+        <activity android:name=".view.activities.ParkingActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
